@@ -1,0 +1,113 @@
+body {
+    margin: auto
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 147, 233);
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.header {
+    margin: 0;
+    position: relative;
+    background: white;
+    height: 100px;
+}
+
+#about {
+    position: absolute;
+    right: 0;
+    height: 30px;
+    width: 100px;
+    border-radius: 10%;
+    background: rgb(0, 147, 233);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#login {
+    position: absolute;
+    right: 100px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10%;
+    background: rgb(0, 147, 233);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form {
+    position: absolute;
+    padding: 30px;
+    font-size: 20pt;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    border: 2px solid black;
+    background: whitesmoke;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 700px;
+    width: 550px;
+}
+
+.form h1 {
+    text-align: center;
+}
+
+.form p {
+    text-align: center;
+    height: 80px;
+}
+
+.form input {
+    font-size: 26pt;
+}
+
+footer {
+    bottom: 25px;
+    text-align: center;
+}
+
+img {
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+}
+
+.amazon {
+    position: absolute;
+   left: 30px;
+   bottom: 15px;
+   
+}
+
+.facebook {
+    position: absolute;
+    left: 70px;
+    bottom: 20px;
+}
+
+.github {
+    position: absolute;
+    left: 170px;
+    bottom: 15px;
+}
+
+.slack {
+    position: absolute;
+   left: 205px;
+   bottom: 20px;
+}
+
+.insta { 
+    position: absolute;
+    left: 325px;
+    bottom: 15px;
+}
